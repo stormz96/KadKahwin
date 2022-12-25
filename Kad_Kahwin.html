@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>      
     img {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    .map {
-
-    }
-    .download {
-
+    .center{
+        display: grid;
+        place-items: center;
     }
 </style>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kad Kahwin Syafiqah & Meor</title>
 </head>
+<audio autoplay>
+    <source src="song1.mp3" type="audio/mpeg">
+</audio>
 <body style="background-color:#FFD0C6;">
-    
-<img src="Kad1.jpg" alt="" width="50%" height="50%" class="center">
-<img src="Kad2.jpg" alt="" width="50%" height="50%" class="center">
+
+<a href="https://maps.app.goo.gl/QtyTtp99GzjmE9G58">
+    <img src="Kad1.jpg" alt="" width="100%" height="100%">
+    <img src="Kad2.jpg" alt="" width="100%" height="100%">
+</a>
+
+<!--<img src="Kad1.jpg" alt="" width="100%" height="100%" class="center">
+<img src="Kad2.jpg" alt="" width="100%" height="100%" class="center">
 
 <form class="map" action="https://maps.app.goo.gl/QtyTtp99GzjmE9G58">
     <input type="submit" value="Google Map Dewan IPD Selama" />
-</form>
+</form>-->
 
-<a class="download" href="Kad Kahwin.pdf" download>
-    <img src="download.png" alt="Download Kad Jemputan" width="70" height="50">
-    <button>Download Kad Jemputan</button>
-</a>
+<div class="center">
+    <a href="Kad Kahwin.pdf" download>
+        <button class="center">Download Kad Jemputan</button>
+    </a>
+</div>
 
 </body>
 </html>
